@@ -1,0 +1,13 @@
+..
+ Write a program to print the values which are similar in both given sets.
+..
+set1 = set(map(int, input().split()))
+set2 = set(map(int, input().split()))
+common_values = set1 & set2
+print(*sorted(common_values))
+..
+Sample Input:
+1 2 3 4
+2 4 6 8
+Sample Output:
+2 4 
