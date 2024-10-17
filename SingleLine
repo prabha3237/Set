@@ -1,0 +1,12 @@
+..
+Write a program to get input in a single line separated by space and print the values of set in single line separated by space.
+..
+values = input().split()
+unique_values = set(map(int, values))
+print(*sorted(unique_values))
+..
+Sample Input:
+3 1 5 4 2
+Sample Output:
+1 2 3 4 5
+..
