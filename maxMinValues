@@ -1,0 +1,14 @@
+..
+7) Write a program to find the maximum and minimum value of given set values.
+..
+values = set(map(int, input().split()))
+max_value = max(values)
+min_value = min(values)
+print("Maximum:", max_value)
+print("Minimum:", min_value)
+..
+Sample Input:
+1 2 3 4 5
+Sample Output:
+Maximum: 5
+Minimum: 1
